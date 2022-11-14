@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-blue1: #032E3E;
+    --dark-blue2: #19646A;
+    --blue-green1: #00C690;
+    --blue-green2: #00DF96;
+    --green1: #00CF52;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    margin: 3em;
+    background-color: var(--dark-blue2);
+    display: flex;
+    flex-direction: column;
+}
+/* Ska fia med pre så att code blir ett max och ändra background color där... */
+.main{
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    padding: 2em;
+    background-color: var(--green1);
+    border-radius: 15px;
+
+}
+
+
+/* /* .code {
+    display: flex;
+    overflow: auto;
+    background: var(--green1);
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    /* flex: 1 0 auto; */
+    /* background-color: var(--green1); */
+
+.main .portrait {
+    width: 20%;
+    display: inline-flex;
+    padding-bottom: 1em;
+    border-radius: 5em;
+    
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+}
+
+/* Navbar */
+
+/*
+* Style links.
+*/
+
+.nav a {
+    font-size: 2em;
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin: 4rem 0;
+    border-radius: 2rem;
+    color: var(--dark-blue1);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: var(--dark-blue2);
+    background-color: var(--blue-green1);
+    transition-duration: .25s;
+}
+
+/*
+* Remove bullets, margins and padding from the list.
+*/
+.nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+/*
+* Put the li items on a line.
+*/
+.nav li {
+    display: inline;
+}
+
+
+/* Title */
+.title, .logo {
+    text-align: center;
+    list-style: none;
+}
+
+.title {
+    display: inline;
+    text-align: center;
+}
+
+
+.logoImg {
+    float: left;
+    margin-left: 2em;
+    display: inline-flex;
+    max-width: 25%;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    padding: auto;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.footer a {
+    color: #032E3E;
+}
+
+.footer .social {
+    display: inline-flex;
+    font-size: 4rem;
+}
+
+.footer .social a {
+    text-decoration: none !important;
+}
+
+.footer a:hover {
+    background-color: #00DF96;
+    font-size: 5rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1rem;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}

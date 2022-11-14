@@ -6,6 +6,7 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+<img src="./assets/img/portrait.jpg" alt="Porträtt på mig" class="portrait">
 
-This is a sample home page written in markdown with some frontmatter defined.
+Hej jag heter Wiktor Isaksson och det är jag som har skapat denna sida. Jag studerar på BTH och denna sida är en del av en design kurs som jag läser där. Detta är min första sida som har med design som inriktning. 
+
