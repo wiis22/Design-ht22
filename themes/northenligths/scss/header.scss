@@ -1,0 +1,74 @@
+.hidden {
+    display: none !important;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+}
+
+/* Title */
+.title,
+.logo {
+    text-align: center;
+    list-style: none;
+}
+
+.title {
+    display: inline;
+    text-align: center;
+}
+
+.title * {
+    color: $font-color;
+}
+
+.logo-img {
+    float: left;
+    margin-top: 2em;
+    margin-left: 2em;
+    display: inline-flex;
+    max-width: 25%;
+}
+
+/* Navbar */
+
+/*
+* Style links.
+*/
+
+.nav a {
+    font-size: 2em;
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin: 4rem 0;
+    border-radius: 2rem;
+    color: $dark-blue1;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: $dark-blue2;
+    background-color: $blue-green1;
+    transition-duration: 0.25s;
+}
+
+/*
+* Remove bullets, margins and padding from the list.
+*/
+.nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+/*
+* Put the li items on a line.
+*/
+.nav li {
+    display: inline;
+}

@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      icon: fab fa-github
     - title: Link till kursens youtube repo.
       url: https://www.youtube.com/c/DbwebbSe/featured
-      icon: youtube
+      icon: fab fa-youtube
 ---

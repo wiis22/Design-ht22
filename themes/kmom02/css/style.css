@@ -6422,154 +6422,50 @@ template {
   display: none;
 }
 
-.hidden {
-  display: none !important;
+blockquote {
+  font-style: italic;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 0.5em solid #f5f5f5;
 }
 
-.header,
-.footer {
-  flex: 0 0 auto;
+code {
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #f5f5f5;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.9824;
 }
 
-/* Header */
-.site-header {
-  display: flex;
+pre {
+  padding: 0 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #f5f5f5;
 }
 
-/* Title */
-.title,
-.logo {
-  text-align: center;
-  list-style: none;
-}
-
-.title {
-  display: inline;
-  text-align: center;
-}
-
-.title * {
-  color: #333;
-}
-
-.logo-img {
-  float: left;
-  margin-top: 2em;
-  margin-left: 2em;
-  display: inline-flex;
-  max-width: 25%;
-}
-
-/* Navbar */
-/*
-* Style links.
-*/
-.nav a {
-  font-size: 2em;
-  display: inline-block;
-  padding: 1rem 3rem;
-  margin: 4rem 0;
-  border-radius: 2rem;
-  color: #032e3e;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  color: #19646a;
-  background-color: #00c690;
-  transition-duration: 0.25s;
-}
-
-/*
-* Remove bullets, margins and padding from the list.
-*/
-.nav ul {
-  text-align: center;
-  list-style-type: none;
-}
-
-/*
-* Put the li items on a line.
-*/
-.nav li {
-  display: inline;
-}
-
-.main {
-  margin: 0 auto;
-  max-width: 80%;
-  padding: 2em;
-  background-color: #00cf52;
-  border-radius: 15px;
-}
-
-.main .portrait {
-  width: 20%;
+pre code {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main .portrait,
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  padding-bottom: 1em;
-  border-radius: 3em;
-}
-
-.main p {
-  font-size: 1.2rem;
-}
-
-/* Footer */
-.footer {
-  padding: auto;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-.footer a {
-  color: #032e3e;
-}
-
-.footer .social {
-  display: inline-flex;
-  font-size: 4rem;
-}
-
-.footer .social a {
-  text-decoration: none !important;
-}
-
-.footer a:hover {
-  background-color: #00df96;
-  font-size: 5rem;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 15px;
+  margin: 0;
+  padding: 1.1111em 0;
+  border: 0 none;
+  background: transparent;
+  overflow-x: auto;
+  line-height: 1.4;
 }
 
 body {
-  background-color: #19646a;
+  background-color: #19646A;
 }
 
 * {
-  color: #333;
+  color: #000;
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Sono", sans-serif;
-}
-
-.ul a,
-.footer {
-  color: #032e3e;
 }

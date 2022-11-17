@@ -1,0 +1,29 @@
+/* Footer */
+
+.footer {
+    padding: auto;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.footer a {
+    color: $dark-blue1;
+}
+
+.footer .social {
+    display: inline-flex;
+    font-size: 4rem;
+}
+
+.footer .social a {
+    text-decoration: none !important;
+}
+
+.footer a:hover {
+    background-color: $blue-green2;
+    font-size: 5rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
