@@ -1,0 +1,65 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 1.5rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+}
+
+.box {
+    border-radius: 0.5rem;
+    border: 1px solid $dark-blue1;
+    padding: 5px;
+    background-color: #faebd7;
+}
+
+.grow-2 {
+    grid-column: span 2;
+}
+
+.grow-3 {
+    grid-column: span 3;
+}
+
+@media (max-width: 992px) { 
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .grow-2 {
+        grid-column: span 1;
+    }
+
+    .grow-3 {
+        grid-column: span 1;
+    }
+}
+
+//Handels the css for single technology pages
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    border-radius: 0.5rem;
+    border: 1px solid $dark-blue1;
+    padding: 5px;
+    margin-right: 1rem;
+    width: 10%;
+    background-color: #faebd7;
+}
+
+.tech-content {
+    width: 70%;
+}
+
+@media (max-width: 992px) { 
+    .tech-menu {
+        display: none;
+    }
+}
