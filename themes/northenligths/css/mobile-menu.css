@@ -12,9 +12,9 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
-    color: #032E3E;
-}
+/* .nav a, .nav-toggle {
+    color: $header-color;
+} */
 
 .nav-toggle {
     display: none;

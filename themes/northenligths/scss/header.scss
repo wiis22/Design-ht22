@@ -8,15 +8,31 @@
 }
 
 /* Header */
-.site-header {
+.site-header { // del 1
+
     display: flex;
+    align-items: center;
+}
+
+.header {
+    color: $header-color;
 }
 
 /* Title */
-.title,
-.logo {
-    text-align: center;
+.title {
+    justify-content: center;
     list-style: none;
+}
+
+.logo { //del 2
+    
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.site-header::after { // del 3 to get logo far löeft and title allways in center
+    flex: 1;
+    content: '';
 }
 
 .title {
@@ -24,9 +40,6 @@
     text-align: center;
 }
 
-.title * {
-    color: $font-color;
-}
 
 .logo-img {
     float: left;
@@ -48,13 +61,12 @@
     padding: 1rem 3rem;
     margin: 4rem 0;
     border-radius: 2rem;
-    color: $dark-blue1;
     text-decoration: none;
 }
 
 .nav a:hover {
-    color: $dark-blue2;
-    background-color: $blue-green1;
+    color: $nav-hover-color;
+    background-color: $nav-hover-background-color;
     transition-duration: 0.25s;
 }
 

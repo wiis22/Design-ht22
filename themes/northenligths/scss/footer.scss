@@ -7,7 +7,7 @@
 }
 
 .footer a {
-    color: $dark-blue1;
+    color: $footer-link-color;
 }
 
 .footer .social {
@@ -20,7 +20,7 @@
 }
 
 .footer a:hover {
-    background-color: $blue-green2;
+    background-color: $footer-hover-color;
     font-size: 5rem;
     padding-top: 5px;
     padding-left: 5px;

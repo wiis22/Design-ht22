@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6422,12 +6423,26 @@ template {
   display: none;
 }
 
+/* Monokrom rgb på dark-blue2
+    #193638
+    #86CCD1
+    #1A666B
+    #D6FCFF
+    #C2FBFF
+*/
+/* Monokrom rgb på blue-green1
+    #1E9474
+    #276151
+    #00C792
+    #1F332E
+    #293330
+*/
 body {
-  background-color: #19646a;
+  background-color: #1e9474;
 }
 
 * {
-  color: #333;
+  color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -6438,11 +6453,6 @@ h4,
 h5,
 h6 {
   font-family: "Sono", sans-serif;
-}
-
-.ul a,
-.footer {
-  color: #032e3e;
 }
 
 .hidden {
@@ -6457,22 +6467,32 @@ h6 {
 /* Header */
 .site-header {
   display: flex;
+  align-items: center;
+}
+
+.header {
+  color: #fff;
 }
 
 /* Title */
-.title,
-.logo {
-  text-align: center;
+.title {
+  justify-content: center;
   list-style: none;
+}
+
+.logo {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.site-header::after {
+  flex: 1;
+  content: "";
 }
 
 .title {
   display: inline;
   text-align: center;
-}
-
-.title * {
-  color: #333;
 }
 
 .logo-img {
@@ -6493,13 +6513,12 @@ h6 {
   padding: 1rem 3rem;
   margin: 4rem 0;
   border-radius: 2rem;
-  color: #032e3e;
   text-decoration: none;
 }
 
 .nav a:hover {
-  color: #19646a;
-  background-color: #00c690;
+  color: #fff;
+  background-color: #54a5ab;
   transition-duration: 0.25s;
 }
 
@@ -6522,7 +6541,7 @@ h6 {
   margin: 0 auto;
   max-width: 80%;
   padding: 2em;
-  background-color: #00cf52;
+  background-color: #1f332e;
   border-radius: 15px;
 }
 
@@ -6542,7 +6561,7 @@ h1 {
 }
 
 .main p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Footer */
@@ -6553,7 +6572,7 @@ h1 {
 }
 
 .footer a {
-  color: #032e3e;
+  color: #fff;
 }
 
 .footer .social {
@@ -6566,7 +6585,7 @@ h1 {
 }
 
 .footer a:hover {
-  background-color: #00df96;
+  background-color: #54a5ab;
   font-size: 5rem;
   padding-top: 5px;
   padding-left: 5px;
@@ -6587,7 +6606,7 @@ h1 {
   border-radius: 0.5rem;
   border: 1px solid #032e3e;
   padding: 5px;
-  background-color: antiquewhite;
+  background-color: #146652;
 }
 
 .grow-2 {
@@ -6622,7 +6641,7 @@ h1 {
   padding: 5px;
   margin-right: 1rem;
   width: 10%;
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 
 .tech-content {
