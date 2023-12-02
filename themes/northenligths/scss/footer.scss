@@ -6,7 +6,12 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .footer a {
+=======
+.social a,
+.social i {
+>>>>>>> v5. and fix Cimg
     color: $footer-link-color;
 }
 
@@ -22,8 +27,13 @@
 .footer a:hover {
     background-color: $footer-hover-color;
     font-size: 5rem;
+<<<<<<< HEAD
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
+=======
+    padding: 5px;
+    margin-bottom: 5px;
+>>>>>>> v5. and fix Cimg
     border-radius: 15px;
 }

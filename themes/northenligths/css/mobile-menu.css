@@ -12,9 +12,6 @@
     padding: 0 1em;
 }
 
-/* .nav a, .nav-toggle {
-    color: $header-color;
-} */
 
 .nav-toggle {
     display: none;
@@ -23,6 +20,7 @@
 @media (max-width: 767px) {
     .header {
         flex-direction: column;
+        list-style: none;
     }
 
     .nav ul {

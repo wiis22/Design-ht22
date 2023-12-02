@@ -9,14 +9,24 @@
 
 /* Header */
 .site-header { // del 1
+<<<<<<< HEAD
 
+=======
+>>>>>>> v5. and fix Cimg
     display: flex;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .header {
     color: $header-color;
 }
+=======
+// .header {
+//     color: $header-color;
+// }
+
+>>>>>>> v5. and fix Cimg
 
 /* Title */
 .title {
@@ -24,6 +34,14 @@
     list-style: none;
 }
 
+<<<<<<< HEAD
+=======
+.title h1,
+.title p {
+    color: $header-color;
+}
+
+>>>>>>> v5. and fix Cimg
 .logo { //del 2
     
     flex: 1;
@@ -55,11 +73,26 @@
 * Style links.
 */
 
+<<<<<<< HEAD
 .nav a {
     font-size: 2em;
     display: inline-block;
     padding: 1rem 3rem;
     margin: 4rem 0;
+=======
+// .nav a {
+//     color: $header-color
+// }
+.nav a,
+.nav-toggle i {
+    color: $header-color;
+}
+
+.nav a {
+    font-size: 2em;
+    display: inline-block;
+    padding: 1rem 2rem;
+>>>>>>> v5. and fix Cimg
     border-radius: 2rem;
     text-decoration: none;
 }

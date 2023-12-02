@@ -1,0 +1,47 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-rows: 1fr;
+}
+
+.landingpage img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    max-height: 1rem;
+}
+
+.box {
+    border-radius: 0.5rem;
+    border: 1px solid $dark-blue1;
+    padding: 5px;
+}
+
+
+@media (min-width: 992px) { 
+    .landingpage {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.video16-9 {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.video16-9 iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
