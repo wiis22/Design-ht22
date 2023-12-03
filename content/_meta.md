@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/northenLigthsIcon2.png
+Logo: image/northenLigthsIcon2.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

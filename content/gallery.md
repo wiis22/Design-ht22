@@ -25,7 +25,7 @@ Gallery
     <picture>
         <source media="(max-width: 992px)" srcset="%base_url%/image/kmom05/bild5.jpg?w=800">
         <source media="(min-width: 992px)" srcset="%base_url%/image/kmom05/bild5.jpg?w=400">
-        <img src="%base_url%/image/kmom05/bild5.jpg?w=800" alt="aurora bild 5">
+        <img src="%base_url%/image/kmom05/bild5.jpg?w=800" alt="bild 5">
     </picture>
 </a>
 <a href="%base_url%/image/kmom05/bild4.jpg" taget="_blank">
