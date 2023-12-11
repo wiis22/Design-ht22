@@ -12,11 +12,11 @@ Rapporter
 </div>
 
 <div class="box grow-3">
-<a href= "%base_url%?analysis/02_load">load</a>
+<a href= "%base_url%?analysis/02_load">Load</a>
 </div>
 
 <div class="box grow-3">
-<a href= "%base_url%?analysis/03_design_principles">Kmom06</a>
+<a href= "%base_url%?analysis/03_design_principles">Designprinciper</a>
 </div>
 
 </div>
